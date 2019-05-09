@@ -3,6 +3,8 @@ package net.magese;
 import java.util.Scanner;
 
 /**
+ * 爬楼梯
+ *
  * <a>https://leetcode-cn.com/problems/climbing-stairs/description/</a>
  *
  * 假设你正在爬楼梯。需要 n 步你才能到达楼顶。
