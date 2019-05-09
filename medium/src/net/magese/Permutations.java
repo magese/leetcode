@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 46. 全排列
+ *
  * <a>https://leetcode-cn.com/problems/permutations/description/</a>
  * <p>
  * 给定一个没有重复数字的序列，返回其所有可能的全排列。
