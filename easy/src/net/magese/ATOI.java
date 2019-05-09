@@ -3,6 +3,8 @@ package net.magese;
 import java.util.Scanner;
 
 /**
+ * 字符串转换整数 (atoi)
+ *
  * <a>https://leetcode-cn.com/problems/string-to-integer-atoi/description/</a>
  * <p>
  * 实现 atoi，将字符串转为整数。
