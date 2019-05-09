@@ -3,6 +3,8 @@ package net.magese;
 import java.util.LinkedList;
 
 /**
+ * 20. 有效的括号
+ *
  * <a>https://leetcode-cn.com/problems/valid-parentheses/description/</a>
  * <p>
  * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
