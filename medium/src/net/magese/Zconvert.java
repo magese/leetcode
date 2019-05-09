@@ -1,6 +1,8 @@
 package net.magese;
 
 /**
+ * 6. Z 字形变换
+ *
  * <a>https://leetcode-cn.com/problems/zigzag-conversion/description/</a>
  *
  * 将字符串 "PAYPALISHIRING" 以Z字形排列成给定的行数：
