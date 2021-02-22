@@ -3,12 +3,22 @@ package com.magese;
 /**
  * 链表实体
  */
-class ListNode {
+public class ListNode {
     int val;
     ListNode next;
 
-    ListNode(int x) {
-        val = x;
+    ListNode(int val) {
+        this.val = val;
+    }
+
+    ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
+    public ListNode setNext(ListNode next) {
+        this.next = next;
+        return this.next;
     }
 
     @Override
@@ -16,7 +26,7 @@ class ListNode {
         StringBuilder builder = new StringBuilder();
         ListNode loop = this;
         while (loop != null) {
-            builder.append(loop.val);
+            builder.append("[").append(loop.val).append("]");
             loop = loop.next;
             if (loop != null) builder.append("->");
         }
