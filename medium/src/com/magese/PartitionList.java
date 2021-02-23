@@ -1,5 +1,7 @@
 package com.magese;
 
+import com.magese.common.ListNode;
+
 /**
  * 86. 分隔链表
  *

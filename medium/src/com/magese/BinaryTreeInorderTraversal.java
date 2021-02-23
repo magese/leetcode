@@ -1,5 +1,7 @@
 package com.magese;
 
+import com.magese.common.TreeNode;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Stack;
@@ -70,15 +72,5 @@ public class BinaryTreeInorderTraversal {
         System.out.println(obj.inorderTraversal(root));
     }
 
-}
-
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
 }
 

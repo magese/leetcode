@@ -1,5 +1,7 @@
 package com.magese;
 
+import com.magese.common.ListNode;
+
 /**
  * 83. 删除排序链表中的重复元素
  *
@@ -17,30 +19,6 @@ package com.magese;
  * 输出: 1->2->3
  */
 public class RemoveDuplicatesFromSortedList {
-    /**
-     * Definition for singly-linked list.
-     * public class ListNode {
-     * int val;
-     * ListNode next;
-     * ListNode(int x) { val = x; }
-     * }
-     */
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
-        @Override
-        public String toString() {
-            return "ListNode{" +
-                    "val=" + val +
-                    ", next=" + next +
-                    '}';
-        }
-    }
 
     private ListNode deleteDuplicates(ListNode head) {
         if (head == null) return null;

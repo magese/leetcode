@@ -1,5 +1,7 @@
 package com.magese;
 
+import com.magese.common.ListNode;
+
 /**
  * @author gaozhicheng
  * @since 2021/2/22 16:06

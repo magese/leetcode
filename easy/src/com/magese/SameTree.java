@@ -1,6 +1,9 @@
 package com.magese;
 
-import java.util.*;
+import com.magese.common.TreeNode;
+
+import java.util.LinkedList;
+import java.util.Queue;
 
 /**
  * 100. 相同的树
@@ -82,12 +85,3 @@ public class SameTree {
     }
 }
 
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
-}
