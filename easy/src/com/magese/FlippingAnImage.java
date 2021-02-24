@@ -46,9 +46,10 @@ public class FlippingAnImage {
             int left = 0, right = len - 1;
             while (left <= right) {
                 if (left != right) {
-                    int temp = A[i][left];
-                    A[i][left] = 1 - A[i][right];
-                    A[i][right] = 1 - temp;
+                    if (A[i][left] == A[i][right]) {
+                        A[i][left] = 1 - A[i][left];
+                        A[i][right] = 1 - A[i][right];
+                    }
                 } else {
                     A[i][left] = 1 - A[i][left];
                 }
