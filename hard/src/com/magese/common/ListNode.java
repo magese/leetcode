@@ -22,8 +22,7 @@ public class ListNode {
     }
 
     public ListNode setNext(int nextVal) {
-        this.next = new ListNode(nextVal);
-        return this.next;
+        return setNext(new ListNode(nextVal));
     }
 
     @Override
