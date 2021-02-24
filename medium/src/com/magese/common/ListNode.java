@@ -21,6 +21,10 @@ public class ListNode {
         return this.next;
     }
 
+    public ListNode setNext(int nodeVal) {
+        return setNext(new ListNode(nodeVal));
+    }
+
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
