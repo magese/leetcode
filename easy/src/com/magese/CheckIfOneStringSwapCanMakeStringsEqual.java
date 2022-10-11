@@ -51,7 +51,7 @@ public class CheckIfOneStringSwapCanMakeStringsEqual {
         int diff = 0;
         char diff1 = '0';
         char diff2 = '0';
-        boolean res = true;
+        boolean res = false;
 
         for (int i = 0; i < s1.length(); i++) {
             char c1 = s1.charAt(i);
