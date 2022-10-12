@@ -25,6 +25,14 @@ public class ListNode {
         return setNext(new ListNode(nodeVal));
     }
 
+    public ListNode createNext(int nextNodeVal) {
+        return setNext(create(nextNodeVal));
+    }
+
+    public static ListNode create(int nodeVal) {
+        return new ListNode(nodeVal);
+    }
+
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
